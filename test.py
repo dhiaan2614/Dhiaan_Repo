@@ -1,0 +1,8 @@
+height=float(input('What is your height?'))
+print(height)
+a=float(input('Please enter the first number'))
+b=float(input('Please enter the second number'))
+print(a*b)
+print(a+b)
+print(a-b)
+print(a/b)
