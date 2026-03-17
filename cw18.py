@@ -1,0 +1,35 @@
+# 1) Store values in `v`, `w`, `x`, `y`, and `z`.
+
+# 2) Calculate the expression (v + w) * x / y and store the result back in `z`.
+
+# 3) Print the value of `z` with a message.
+
+# 4) Store a name in `name` and a number in `age`.
+
+# 5) Check this condition using `or` and `and`:
+#    - The code checks if `name` is "Alex"
+#      OR (if `name` is "John" AND `age` is 2 or more).
+#    - If the condition is true, print the welcome message.
+#    - Otherwise, print the goodbye message.
+
+
+v=18
+w=19
+x=11
+y=26
+z=10
+
+
+c=(v + w) * x / y
+
+print(c)
+
+
+Name='Lucy'
+Age=27
+
+
+if (Name == 'Tim' or (Name == 'Lucy' and Age >=2)):
+    print('Welcome')
+else:
+    print('Goodbye')
